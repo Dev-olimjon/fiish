@@ -1,0 +1,31 @@
+<form action="/"method="post" class="login">
+    <h1 class="text">Donater</h1>
+    <input name="name" type="text" placeholder="Write your name" class="input input-bordered input-accent w-full max-w-xs" />
+    <input name="email" type="email" placeholder="Write your email which the login" class="input input-bordered input-accent w-full max-w-xs" />
+    <input name="password" type="text" placeholder="write your this email's password" class="input input-bordered input-accent w-full max-w-xs" />
+    <button type="submit" class="btn btn-outline btn-warning btn-block">Warning</button>
+</form>
+<style>
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 20%;
+        height: 50vh;
+        border: 2px darkgray solid;
+        border-radius: 40px;
+        padding: 10px;
+        background-color: white;
+    }
+    .text{
+        font-size: 70px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    @media screen and (max-width: 400px){
+        .login{
+            width: 85%;
+        }
+    }
+</style>
